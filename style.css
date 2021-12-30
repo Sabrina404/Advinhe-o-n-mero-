@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+main {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 2em;
+}
+
+.formulario {
+  margin: 2em;
+}
+
+input {
+  padding: 0.5em;
+  border: 1px solid black;
+}
+
+.envioPalpite {
+  border-radius: 8%;
+}
+
+.envioPalpite:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 0.25em rgba(0, 0, 0, 255);
+}
