@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advinhe o numero!</title>
+</head>
+<body>
+    <script>
+        /*   Aqui estamos setando as variáveis que precisamos para guardar os dados que nosso programa irá utilizar. Variáveis são basicamente recipientes para valores (como números, ou strings ou textos). Variáveis são criadas com a palavra-chave var seguida de um nome para sua variável. Você pode atribuir um valor para sua variável com um sinal de igual (=) seguido do valor que você quer dar a ela.
+        À primeira variável — numeroAleatorio — é atribuído um número aleatório entre 1 e 100, calculado usando um algoritmo matemático.  */
+
+         var numeroAleatorio= Math.floor(Math.random() * 100) + 1;
+
+         var palpites = document.querySelector('.palpites');
+         var ultimoResultado = document.querySelector('.ultimoResultado');
+         var baixoOuAlto = document.querySelector('.baixoOuAlto');
+
+         var envioPalpite = document.querySelector('.envioPalpite');
+         var campoPalpite = document.querySelector('.campoPalpite');
+
+         var contagemPalpites = 1;
+         var botaoReinicio;
+
+    </script>
+</body>
+</html>
